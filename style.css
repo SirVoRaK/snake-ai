@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.running {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.game > div p {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background-color: hsl(0, 0%, 50%);
+}
+
+div.win {
+    background-color: hsl(100, 50%, 30%);
+}
+div.lost {
+    background-color: hsl(0, 50%, 30%);
+}
