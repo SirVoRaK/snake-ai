@@ -1,6 +1,6 @@
 'use strict'
 
-const boardSize = 14
+const boardSize = 16
 
 const games = []
 
@@ -11,7 +11,7 @@ const winP = document.querySelector('.win span')
 const lostP = document.querySelector('.lost span')
 const percentageP = document.querySelector('.percentage span')
 
-const total = 33
+const total = 20
 runningP.textContent = total
 for (let i = 0; i < total; i++) {
     const div = document.createElement('div')
